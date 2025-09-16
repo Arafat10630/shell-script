@@ -1,5 +1,0 @@
-To: teaandcookie123@gmail.com
-From: teaandcookie123@gmail.com
-Subject: Successful Backup
-
-Backup was successful.
