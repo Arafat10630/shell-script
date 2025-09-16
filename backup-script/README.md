@@ -18,5 +18,6 @@ Steps to setup ssmtp in ubuntu:
     - Using a text editor (eg. vim) open revaliases: sudo vim /etc/ssmtp/revaliases
     - Add the following:
         - root:your.mail@gmail.com:smtp.gmail.com:587
+
 With that your ssmtp should be setup for sending mail to any gmail accounts.
       
