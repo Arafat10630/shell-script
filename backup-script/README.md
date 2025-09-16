@@ -13,7 +13,7 @@ Steps to setup ssmtp in ubuntu:
         - AuthPass=----------------
         - UseTLS=YES
         - UseSTARTTLS=YES
-(AuthPass is a 16 character AppPassword which you can get from your gmail account)
+- (AuthPass is a 16 character AppPassword which you can get from your gmail account)
 - Next edit the 'revaliases' file of ssmtp
     - Using a text editor (eg. vim) open revaliases: sudo vim /etc/ssmtp/revaliases
     - Add the following:
