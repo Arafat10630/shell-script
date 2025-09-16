@@ -58,7 +58,7 @@ Next we will start writing our script
 
 To automate this process, use crontab and give your specific timings and the path to your file.
 
-NOTE: 
+- NOTE: 
     - Give your script executable permission using chmod +x filename
     - If you cannot execute the file due to lacking permission, use sudo to execute it
         - In case you need to use sudo for executing, make sure to write sudo before the path to your file in crontab.
