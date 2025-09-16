@@ -23,8 +23,9 @@ With that your ssmtp should be setup for sending mail to any gmail accounts.
       
 Now we will first setup our backup configuration file which will contain valid paths for source directory and destination directory respectively. It will also contain your email.
 (Check backup.conf file)
+
 Code instruction:
-vim backup.conf
+- vim backup.conf
     - create a variable for source directory and input path to source
     - create a variable for destination directory and input path to destination
     - create a variable for email and give your email as the value.
