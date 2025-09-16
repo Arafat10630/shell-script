@@ -62,5 +62,6 @@ To automate this process, use crontab and give your specific timings and the pat
     - Give your script executable permission using chmod +x filename
     - If you cannot execute the file due to lacking permission, use sudo to execute it
         - In case you need to use sudo for executing, make sure to write sudo before the path to your file in crontab.
+        - Your sudo could need you to enter your password, therefore to execute the file automatically using sudo, I recommend setting up the automation using 'sudo crontab -e'. (If you do this method, you dont need to write sudo before the path to your script) 
   
 
