@@ -1,3 +1,3 @@
-//open crontab using 'crontab -e'
+//open crontab using 'sudo crontab -e'
 //the below command executes the script everyday at 12am.
-00 00 * * * sudo path/to/your/script
+00 00 * * * path/to/your/script
